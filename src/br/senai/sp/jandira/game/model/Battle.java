@@ -28,7 +28,5 @@ public class Battle {
     public void Battle(Player player, Enemy enemy){
         System.out.println(player.name);
         System.out.println(enemy.name);
-
-
     }
 }

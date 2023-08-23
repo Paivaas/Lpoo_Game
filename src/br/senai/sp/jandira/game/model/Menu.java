@@ -40,6 +40,7 @@ public class Menu {
             case 2:
                 battle.ChoiceScenario();
                     battle.Battle();
+
                 System.out.println("Feature in Development");
                 break;
 
