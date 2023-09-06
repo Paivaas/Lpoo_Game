@@ -13,6 +13,19 @@ public class Player {
         return life;
     }
 
+    public void SubtrairVida(int danoPlayer){
+        life -= danoPlayer;
+        // ou  life = life - danoPlayer;]
+
+        if(life < 0){
+            life = 0;
+        }
+    }
+
+    public void RegistrarLife(){
+        life = 100;
+    }
+
 
 
 }

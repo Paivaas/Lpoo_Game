@@ -13,5 +13,15 @@ public class Enemy {
     public int GetLife() {
         return life;
     }
+
+
+    public void SubtrairVida(int danoEnemy){
+        life -= danoEnemy;
+        // ou  life = life - danoPlayer;]
+
+        if(life < 0){
+            life = 0;
+        }
+    }
 }
 
